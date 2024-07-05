@@ -1,7 +1,7 @@
 node {
 
-   def project="hassen_formation/"
-   def IMAGE=$project/app:4.5
+   def project="hassen_formation"
+   def IMAGE= "$project/app:4.5"
 
     stage('Clone') {
           checkout scm
