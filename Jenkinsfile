@@ -2,6 +2,7 @@ node {
 
 
    def IMAGE="workout/app:4.5"
+   def project="hassen_formation/"
 
     stage('Clone') {
           checkout scm
